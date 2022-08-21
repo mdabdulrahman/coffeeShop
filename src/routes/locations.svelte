@@ -56,7 +56,7 @@ $: console.log(find())
 <div class="bg-amber-100 flex text-amber-100 py-11">
    
         <div class="lg:w-1/4 ">
-        <img src="../src/locLogo.png" alt="">
+        <img src="./locLogo.png" alt="">
        
         </div>
         <div class="lg:w-3/4 ">

@@ -16,7 +16,7 @@ import OrderBtn from "./orderBtn.svelte";
 </div>
 </div>
 <div class="bg-amber-100 hidden md:block flex items-center">
-<img src="../src/Intro2.png" alt="">
+<img src="./Intro2.png" alt="">
 </div>
 </div>
 <div  class="bg-amber-100 pb-3 px-24 hidden md:block  flex  justify-center">
