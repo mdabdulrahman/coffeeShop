@@ -1,0 +1,1 @@
+<button class="text-center bg-amber-600 text-amber-100 p-1 md:p-2 rounded ring-offset-2 hover:ring-2 font-semibold ring-offset-amber-100 ring-amber-500">ORDER NOW</button>
