@@ -71,7 +71,7 @@ let secondary="bg-amber-600"
         <div class="lg:w-3/4 flex justify-center md:block">
 
 
-           
+           <div>
         
 
     {#each find() as location,i}
@@ -134,5 +134,6 @@ let secondary="bg-amber-600"
 
 {/each}
 
+        </div>
         </div>
 </div>
