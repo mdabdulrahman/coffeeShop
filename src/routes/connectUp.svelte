@@ -1,0 +1,4 @@
+<script>
+    export let color
+</script>
+<svg width="100%" height="50%" id="svg" viewBox="0 0 1440 400" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><path d="M 0,400 C 0,400 0,200 0,200 C 88.85714285714286,229.57142857142858 177.71428571428572,259.14285714285717 302,265 C 426.2857142857143,270.85714285714283 586,253 711,224 C 836,195 926.2857142857142,154.85714285714286 1042,149 C 1157.7142857142858,143.14285714285714 1298.857142857143,171.57142857142856 1440,200 C 1440,200 1440,400 1440,400 Z" stroke="none" stroke-width="0" fill={color} fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-0"></path></svg>

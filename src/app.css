@@ -1,6 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.mobile-intro{
-    @apply h-[35rem] bg-none
+.form{
+    @apply text-amber-100 py-11 bg-amber-600
+}
+.centerFlex{
+    @apply flex gap-2 justify-center 
+}
+.headings{
+    @apply font-bold text-2xl
+}
+.form-box{
+    @apply rounded p-1 text-black focus:outline-amber-800
 }

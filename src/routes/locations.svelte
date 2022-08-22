@@ -4,9 +4,12 @@ import ViewLess from "./viewLess.svelte";
     import {locations} from "./locationData"
 import ViewAll from "./viewAll.svelte";
 import SearchBar from "./searchBar.svelte";
-   let search="";
+   import PageConnect from "./pageConnect.svelte"
+import ConnectDown from "./connectDown.svelte";
+let search="";
    $: viewAll=false
    let color=" text-amber-600"
+   let color1="#d97706"
    let focusColor="outline-amber-600"
    let bgColor="bg-amber-100"
    let placeholder="Search Location"
@@ -43,13 +46,19 @@ console.log(finding())
 }
 
 $: console.log(find())
-
+let primary="bg-amber-100"
+let secondary="bg-amber-600"
 </script>
-<span class="bg-amber-100 text-amber-600 py-11 flex justify-center items-center gap-2">
+<!-- <PageConnect {secondary}{primary}/> -->
+
+<div class="bg-amber-100 ">
+<ConnectDown {color1}/>
+</div>
+<span class="bg-amber-100 text-amber-600 pb-4 flex justify-center items-center gap-2">
     <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
         <path fill-rule="evenodd" d="M12 1.586l-4 4v12.828l4-4V1.586zM3.707 3.293A1 1 0 002 4v10a1 1 0 00.293.707L6 18.414V5.586L3.707 3.293zM17.707 5.293L14 1.586v12.828l2.293 2.293A1 1 0 0018 16V6a1 1 0 00-.293-.707z" clip-rule="evenodd" />
       </svg>
-    <h1 class="font-bold text-2xl">
+    <h1 class="headings">
         Our Locations</h1>
         </span>
        <SearchBar on:search={(e)=>search=e.detail} {color} {focusColor} {bgColor} {placeholder} />

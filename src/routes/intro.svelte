@@ -1,6 +1,8 @@
 <script>
     import {slide,fade} from "svelte/transition"
+import ConnectDown from "./connectDown.svelte";
 import OrderBtn from "./orderBtn.svelte";
+let color1="#fef3c7"
 </script>
 <div>
 <div class="flex ">
@@ -28,5 +30,8 @@ import OrderBtn from "./orderBtn.svelte";
       </svg></center>
     
     </div>
+    </div>
+    <div class="bg-amber-600 ">
+    <ConnectDown {color1}/>
     </div>
 </div>

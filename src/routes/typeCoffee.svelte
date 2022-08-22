@@ -46,8 +46,8 @@ $: console.log(find())
 </script>
 
 <div class=" bg-amber-600">
-    <h1 class="text-center pt-14 text-amber-100 text-2xl font-bold ">Coffee Menu</h1>
-    <div class="py-6">
+    <h1 class="text-center  text-amber-100 text-2xl font-bold ">Coffee Menu</h1>
+    <div class="py-3">
     <SearchBar on:search={(e)=>search=e.detail} {color} {focusColor} {bgColor} {placeholder}/>
 </div>
 {#each find() as type ,i}
@@ -99,4 +99,5 @@ $: console.log(find())
     
     {/each}
 </div>
+
 
