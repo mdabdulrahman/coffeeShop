@@ -62,7 +62,7 @@ let secondary="bg-amber-600"
         Our Locations</h1>
         </span>
        <SearchBar on:search={(e)=>search=e.detail} {color} {focusColor} {bgColor} {placeholder} />
-<div class="bg-amber-100 flex text-amber-100 py-11">
+<div class="bg-amber-100 flex text-amber-100 hidden md:block py-11">
    
         <div class="lg:w-1/4 ">
         <img src="./locLogo.png" alt="">
