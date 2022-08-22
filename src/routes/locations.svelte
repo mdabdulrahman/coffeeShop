@@ -76,7 +76,7 @@ let secondary="bg-amber-600"
 
     {#each find() as location,i}
     {#if i==0}  
-    <div class="h-5/6 w-full  md:grid lg:grid-cols-4 md:grid-cols-3 flex justify-center gap-4  ">
+    <div class="h-5/6 w-full  md:grid lg:grid-cols-4 md:grid-cols-3 mx-auto gap-4  ">
     {#each find() as location,i}
 
 
