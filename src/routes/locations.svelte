@@ -68,15 +68,15 @@ let secondary="bg-amber-600"
         <img src="./locLogo.png" alt="">
        
         </div>
-        <div class="lg:w-3/4 flex justify-center md:block">
+        <div class="lg:w-3/4 ">
 
 
-           <div>
+           
         
 
     {#each find() as location,i}
     {#if i==0}  
-    <div class="h-5/6 w-full  grid lg:grid-cols-4 md:grid-cols-3  gap-4  ">
+    <div class="h-5/6 w-full  md:grid lg:grid-cols-4 md:grid-cols-3 flex justify-center gap-4  ">
     {#each find() as location,i}
 
 
@@ -134,6 +134,5 @@ let secondary="bg-amber-600"
 
 {/each}
 
-        </div>
         </div>
 </div>

@@ -21,7 +21,7 @@
 </span>
 <span>
 <label for="">Message :</label>
-<input type="text" name=""class="form-box h-40  w-96" id="">
+<input type="text" name=""class="form-box h-40  w-40" id="">
 </span>
 </div>
 
