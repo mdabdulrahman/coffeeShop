@@ -68,7 +68,7 @@ let secondary="bg-amber-600"
         <img src="./locLogo.png" alt="">
        
         </div>
-        <div class="lg:w-3/4 ">
+        <div class="lg:w-3/4 flex justify-center md:block">
 
 
            
